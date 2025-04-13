@@ -1,0 +1,5 @@
+C:\Users\Karol\STM32CubeIDE\workspace_1.16.0\furnanceController\Tests\test_controller.c:18:test_pompa_co_wlacza_sie_pow_60:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK

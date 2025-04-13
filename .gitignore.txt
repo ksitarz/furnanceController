@@ -1,0 +1,32 @@
+# Ignorowanie plików kompilacji
+/build/
+/bin/
+/obj/
+/CMakeFiles/
+
+# Ignorowanie plików i folderów IDE
+.vscode/
+.idea/
+*.swp
+
+# Ignorowanie plików generowanych przez STM32CubeIDE
+.settings/
+*.launch
+*.project
+*.cproject
+
+# Ignorowanie plików zależnych od systemu
+*.log
+*.bak
+*.tmp
+
+# Ignorowanie plików Windowsa
+Thumbs.db
+Desktop.ini
+
+# Ignorowanie plików macOS
+.DS_Store
+
+# Ignorowanie plików MinGW
+*.exe
+*.dll

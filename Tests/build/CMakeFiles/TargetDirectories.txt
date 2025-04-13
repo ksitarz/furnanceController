@@ -1,0 +1,3 @@
+C:/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Tests/build/CMakeFiles/test_controller.dir
+C:/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Tests/build/CMakeFiles/edit_cache.dir
+C:/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Tests/build/CMakeFiles/rebuild_cache.dir
