@@ -1,0 +1,2 @@
+../Core/Src/controller.c:5:6:controller_heatingPump_control	16	static
+../Core/Src/controller.c:10:6:controller_hotWaterPump_control	16	static

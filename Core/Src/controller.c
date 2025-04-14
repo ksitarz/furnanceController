@@ -1,11 +1,16 @@
 #include "controller.h"
+#include "config.h"
 
-void controller_init(void)
+
+bool controller_heatingPump_control(int temp_heater)
 {
-    // tymczasowa pusta implementacja
+    return temp_heater >= controller_config.centralHeatingPump_temp_min &&
+    		temp_heater <= controller_config.centralHeatingPump_temp_max;
 }
 
-bool controller_should_enable_pump_co(int temp_kociol)
+bool controller_hotWaterPump_control(int temp_heater, int hotWaterTemp)
 {
-    return temp_kociol > 60;
+    return temp_heater > hotWaterTemp &&
+    		hotWaterTemp < controller_config.hotWater_temp_max;
 }
+

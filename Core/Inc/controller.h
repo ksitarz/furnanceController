@@ -2,6 +2,7 @@
 
 #include <stdbool.h>
 
-void controller_init(void);
 
-bool controller_should_enable_pump_co(int temp_kociol);
+bool controller_heatingPump_control(int temp_heater);
+
+bool controller_hotWaterPump_control(int temp_heater, int hotWaterTemp);

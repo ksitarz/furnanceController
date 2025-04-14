@@ -101,11 +101,26 @@ CMakeFiles/test_controller.dir/C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furn
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_controller.dir/C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/controller.c.s"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Karol\STM32CubeIDE\workspace_1.16.0\furnanceController\Core\Src\controller.c -o CMakeFiles\test_controller.dir\C_\Users\Karol\STM32CubeIDE\workspace_1.16.0\furnanceController\Core\Src\controller.c.s
 
+CMakeFiles/test_controller.dir/C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/config.c.obj: CMakeFiles/test_controller.dir/flags.make
+CMakeFiles/test_controller.dir/C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/config.c.obj: CMakeFiles/test_controller.dir/includes_C.rsp
+CMakeFiles/test_controller.dir/C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/config.c.obj: C:/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/config.c
+CMakeFiles/test_controller.dir/C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/config.c.obj: CMakeFiles/test_controller.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Karol\STM32CubeIDE\workspace_1.16.0\furnanceController\Tests\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/test_controller.dir/C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/config.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_controller.dir/C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/config.c.obj -MF CMakeFiles\test_controller.dir\C_\Users\Karol\STM32CubeIDE\workspace_1.16.0\furnanceController\Core\Src\config.c.obj.d -o CMakeFiles\test_controller.dir\C_\Users\Karol\STM32CubeIDE\workspace_1.16.0\furnanceController\Core\Src\config.c.obj -c C:\Users\Karol\STM32CubeIDE\workspace_1.16.0\furnanceController\Core\Src\config.c
+
+CMakeFiles/test_controller.dir/C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/config.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test_controller.dir/C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/config.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Karol\STM32CubeIDE\workspace_1.16.0\furnanceController\Core\Src\config.c > CMakeFiles\test_controller.dir\C_\Users\Karol\STM32CubeIDE\workspace_1.16.0\furnanceController\Core\Src\config.c.i
+
+CMakeFiles/test_controller.dir/C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/config.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test_controller.dir/C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/config.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Karol\STM32CubeIDE\workspace_1.16.0\furnanceController\Core\Src\config.c -o CMakeFiles\test_controller.dir\C_\Users\Karol\STM32CubeIDE\workspace_1.16.0\furnanceController\Core\Src\config.c.s
+
 CMakeFiles/test_controller.dir/lib/Unity/src/unity.c.obj: CMakeFiles/test_controller.dir/flags.make
 CMakeFiles/test_controller.dir/lib/Unity/src/unity.c.obj: CMakeFiles/test_controller.dir/includes_C.rsp
 CMakeFiles/test_controller.dir/lib/Unity/src/unity.c.obj: C:/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Tests/lib/Unity/src/unity.c
 CMakeFiles/test_controller.dir/lib/Unity/src/unity.c.obj: CMakeFiles/test_controller.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Karol\STM32CubeIDE\workspace_1.16.0\furnanceController\Tests\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/test_controller.dir/lib/Unity/src/unity.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Karol\STM32CubeIDE\workspace_1.16.0\furnanceController\Tests\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/test_controller.dir/lib/Unity/src/unity.c.obj"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_controller.dir/lib/Unity/src/unity.c.obj -MF CMakeFiles\test_controller.dir\lib\Unity\src\unity.c.obj.d -o CMakeFiles\test_controller.dir\lib\Unity\src\unity.c.obj -c C:\Users\Karol\STM32CubeIDE\workspace_1.16.0\furnanceController\Tests\lib\Unity\src\unity.c
 
 CMakeFiles/test_controller.dir/lib/Unity/src/unity.c.i: cmake_force
@@ -120,6 +135,7 @@ CMakeFiles/test_controller.dir/lib/Unity/src/unity.c.s: cmake_force
 test_controller_OBJECTS = \
 "CMakeFiles/test_controller.dir/test_controller.c.obj" \
 "CMakeFiles/test_controller.dir/C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/controller.c.obj" \
+"CMakeFiles/test_controller.dir/C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/config.c.obj" \
 "CMakeFiles/test_controller.dir/lib/Unity/src/unity.c.obj"
 
 # External object files for target test_controller
@@ -127,12 +143,13 @@ test_controller_EXTERNAL_OBJECTS =
 
 test_controller.exe: CMakeFiles/test_controller.dir/test_controller.c.obj
 test_controller.exe: CMakeFiles/test_controller.dir/C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/controller.c.obj
+test_controller.exe: CMakeFiles/test_controller.dir/C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/config.c.obj
 test_controller.exe: CMakeFiles/test_controller.dir/lib/Unity/src/unity.c.obj
 test_controller.exe: CMakeFiles/test_controller.dir/build.make
 test_controller.exe: CMakeFiles/test_controller.dir/linkLibs.rsp
 test_controller.exe: CMakeFiles/test_controller.dir/objects1.rsp
 test_controller.exe: CMakeFiles/test_controller.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Karol\STM32CubeIDE\workspace_1.16.0\furnanceController\Tests\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable test_controller.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Karol\STM32CubeIDE\workspace_1.16.0\furnanceController\Tests\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable test_controller.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\test_controller.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

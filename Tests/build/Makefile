@@ -128,6 +128,30 @@ test_controller/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_controller.dir\build.make CMakeFiles/test_controller.dir/build
 .PHONY : test_controller/fast
 
+C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/config.obj: C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/config.c.obj
+.PHONY : C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/config.obj
+
+# target to build an object file
+C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/config.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_controller.dir\build.make CMakeFiles/test_controller.dir/C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/config.c.obj
+.PHONY : C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/config.c.obj
+
+C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/config.i: C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/config.c.i
+.PHONY : C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/config.i
+
+# target to preprocess a source file
+C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/config.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_controller.dir\build.make CMakeFiles/test_controller.dir/C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/config.c.i
+.PHONY : C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/config.c.i
+
+C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/config.s: C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/config.c.s
+.PHONY : C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/config.s
+
+# target to generate assembly for a file
+C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/config.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_controller.dir\build.make CMakeFiles/test_controller.dir/C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/config.c.s
+.PHONY : C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/config.c.s
+
 C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/controller.obj: C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/controller.c.obj
 .PHONY : C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/controller.obj
 
@@ -209,6 +233,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... test_controller
+	@echo ... C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/config.obj
+	@echo ... C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/config.i
+	@echo ... C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/config.s
 	@echo ... C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/controller.obj
 	@echo ... C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/controller.i
 	@echo ... C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/controller.s

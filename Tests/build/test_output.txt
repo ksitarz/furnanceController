@@ -1,5 +1,10 @@
-C:\Users\Karol\STM32CubeIDE\workspace_1.16.0\furnanceController\Tests\test_controller.c:18:test_pompa_co_wlacza_sie_pow_60:PASS
+C:\Users\Karol\STM32CubeIDE\workspace_1.16.0\furnanceController\Tests\test_controller.c:52:test_HeatingPumpOn_tempInRange:PASS
+C:\Users\Karol\STM32CubeIDE\workspace_1.16.0\furnanceController\Tests\test_controller.c:53:test_HeatingPumpOff_tempBelowRange:PASS
+C:\Users\Karol\STM32CubeIDE\workspace_1.16.0\furnanceController\Tests\test_controller.c:54:test_HeatingPumpOff_tempAboveRange:PASS
+C:\Users\Karol\STM32CubeIDE\workspace_1.16.0\furnanceController\Tests\test_controller.c:56:test_HotWaterPumpOn_tempInRange:PASS
+C:\Users\Karol\STM32CubeIDE\workspace_1.16.0\furnanceController\Tests\test_controller.c:40:test_HotWaterPumpOff_tempBelowRange:FAIL: Expected FALSE Was TRUE
+C:\Users\Karol\STM32CubeIDE\workspace_1.16.0\furnanceController\Tests\test_controller.c:58:test_HotWaterPumpOff_tempAboveRange:PASS
 
 -----------------------
-1 Tests 0 Failures 0 Ignored 
-OK
+6 Tests 1 Failures 0 Ignored 
+FAIL

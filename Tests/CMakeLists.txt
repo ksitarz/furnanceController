@@ -18,6 +18,7 @@ include_directories(
 set(SOURCES
     test_controller.c
     ${SRC_DIR}/controller.c
+	${SRC_DIR}/config.c 
     ${UNITY_DIR}/unity.c
 )
 
