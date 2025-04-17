@@ -1,0 +1,6 @@
+-- Configuring done (0.3s)
+-- Generating done (0.1s)
+-- Build files have been written to: C:/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Tests/build
+[ 16%] Building C object CMakeFiles/test_controller.dir/test_controller.c.obj
+[ 33%] Linking C executable test_controller.exe
+[100%] Built target test_controller

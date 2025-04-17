@@ -1,7 +1,7 @@
-CMakeFiles/test_controller.dir/lib/Unity/src/unity.c.obj: \
- C:\Users\Karol\STM32CubeIDE\workspace_1.16.0\furnanceController\Tests\lib\Unity\src\unity.c \
- C:\Users\Karol\STM32CubeIDE\workspace_1.16.0\furnanceController\Tests\lib\Unity\src\unity.h \
- C:\Users\Karol\STM32CubeIDE\workspace_1.16.0\furnanceController\Tests\lib\Unity\src\unity_internals.h \
+CMakeFiles/test_controller.dir/Lib/Unity/src/unity.c.obj: \
+ C:\Users\Karol\STM32CubeIDE\workspace_1.16.0\furnanceController\Tests\Lib\Unity\src\unity.c \
+ C:\Users\Karol\STM32CubeIDE\workspace_1.16.0\furnanceController\Tests\Lib\Unity\src\unity.h \
+ C:\Users\Karol\STM32CubeIDE\workspace_1.16.0\furnanceController\Tests\Lib\Unity\src\unity_internals.h \
  c:\mingw\include\setjmp.h c:\mingw\include\_mingw.h \
  c:\mingw\include\msvcrtver.h c:\mingw\include\w32api.h \
  c:\mingw\include\sdkddkver.h c:\mingw\include\math.h \

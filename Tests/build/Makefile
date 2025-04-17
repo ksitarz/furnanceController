@@ -176,29 +176,53 @@ C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/control
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_controller.dir\build.make CMakeFiles/test_controller.dir/C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/controller.c.s
 .PHONY : C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/controller.c.s
 
-lib/Unity/src/unity.obj: lib/Unity/src/unity.c.obj
-.PHONY : lib/Unity/src/unity.obj
+Lib/Unity/extras/fixture/src/unity_fixture.obj: Lib/Unity/extras/fixture/src/unity_fixture.c.obj
+.PHONY : Lib/Unity/extras/fixture/src/unity_fixture.obj
 
 # target to build an object file
-lib/Unity/src/unity.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_controller.dir\build.make CMakeFiles/test_controller.dir/lib/Unity/src/unity.c.obj
-.PHONY : lib/Unity/src/unity.c.obj
+Lib/Unity/extras/fixture/src/unity_fixture.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_controller.dir\build.make CMakeFiles/test_controller.dir/Lib/Unity/extras/fixture/src/unity_fixture.c.obj
+.PHONY : Lib/Unity/extras/fixture/src/unity_fixture.c.obj
 
-lib/Unity/src/unity.i: lib/Unity/src/unity.c.i
-.PHONY : lib/Unity/src/unity.i
+Lib/Unity/extras/fixture/src/unity_fixture.i: Lib/Unity/extras/fixture/src/unity_fixture.c.i
+.PHONY : Lib/Unity/extras/fixture/src/unity_fixture.i
 
 # target to preprocess a source file
-lib/Unity/src/unity.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_controller.dir\build.make CMakeFiles/test_controller.dir/lib/Unity/src/unity.c.i
-.PHONY : lib/Unity/src/unity.c.i
+Lib/Unity/extras/fixture/src/unity_fixture.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_controller.dir\build.make CMakeFiles/test_controller.dir/Lib/Unity/extras/fixture/src/unity_fixture.c.i
+.PHONY : Lib/Unity/extras/fixture/src/unity_fixture.c.i
 
-lib/Unity/src/unity.s: lib/Unity/src/unity.c.s
-.PHONY : lib/Unity/src/unity.s
+Lib/Unity/extras/fixture/src/unity_fixture.s: Lib/Unity/extras/fixture/src/unity_fixture.c.s
+.PHONY : Lib/Unity/extras/fixture/src/unity_fixture.s
 
 # target to generate assembly for a file
-lib/Unity/src/unity.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_controller.dir\build.make CMakeFiles/test_controller.dir/lib/Unity/src/unity.c.s
-.PHONY : lib/Unity/src/unity.c.s
+Lib/Unity/extras/fixture/src/unity_fixture.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_controller.dir\build.make CMakeFiles/test_controller.dir/Lib/Unity/extras/fixture/src/unity_fixture.c.s
+.PHONY : Lib/Unity/extras/fixture/src/unity_fixture.c.s
+
+Lib/Unity/src/unity.obj: Lib/Unity/src/unity.c.obj
+.PHONY : Lib/Unity/src/unity.obj
+
+# target to build an object file
+Lib/Unity/src/unity.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_controller.dir\build.make CMakeFiles/test_controller.dir/Lib/Unity/src/unity.c.obj
+.PHONY : Lib/Unity/src/unity.c.obj
+
+Lib/Unity/src/unity.i: Lib/Unity/src/unity.c.i
+.PHONY : Lib/Unity/src/unity.i
+
+# target to preprocess a source file
+Lib/Unity/src/unity.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_controller.dir\build.make CMakeFiles/test_controller.dir/Lib/Unity/src/unity.c.i
+.PHONY : Lib/Unity/src/unity.c.i
+
+Lib/Unity/src/unity.s: Lib/Unity/src/unity.c.s
+.PHONY : Lib/Unity/src/unity.s
+
+# target to generate assembly for a file
+Lib/Unity/src/unity.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_controller.dir\build.make CMakeFiles/test_controller.dir/Lib/Unity/src/unity.c.s
+.PHONY : Lib/Unity/src/unity.c.s
 
 test_controller.obj: test_controller.c.obj
 .PHONY : test_controller.obj
@@ -239,9 +263,12 @@ help:
 	@echo ... C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/controller.obj
 	@echo ... C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/controller.i
 	@echo ... C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/controller.s
-	@echo ... lib/Unity/src/unity.obj
-	@echo ... lib/Unity/src/unity.i
-	@echo ... lib/Unity/src/unity.s
+	@echo ... Lib/Unity/extras/fixture/src/unity_fixture.obj
+	@echo ... Lib/Unity/extras/fixture/src/unity_fixture.i
+	@echo ... Lib/Unity/extras/fixture/src/unity_fixture.s
+	@echo ... Lib/Unity/src/unity.obj
+	@echo ... Lib/Unity/src/unity.i
+	@echo ... Lib/Unity/src/unity.s
 	@echo ... test_controller.obj
 	@echo ... test_controller.i
 	@echo ... test_controller.s

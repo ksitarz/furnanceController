@@ -11,6 +11,7 @@ bool controller_heatingPump_control(int temp_heater)
 bool controller_hotWaterPump_control(int temp_heater, int hotWaterTemp)
 {
     return temp_heater > hotWaterTemp &&
-    		hotWaterTemp < controller_config.hotWater_temp_max;
+    		hotWaterTemp < controller_config.hotWater_temp_max &&
+			temp_heater >= controller_config.hotWater_temp_min;
 }
 

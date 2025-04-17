@@ -1,2 +1,2 @@
 ../Core/Src/controller.c:5:6:controller_heatingPump_control	3
-../Core/Src/controller.c:10:6:controller_hotWaterPump_control	1
+../Core/Src/controller.c:11:6:controller_hotWaterPump_control	4

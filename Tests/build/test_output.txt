@@ -1,10 +1,8 @@
-C:\Users\Karol\STM32CubeIDE\workspace_1.16.0\furnanceController\Tests\test_controller.c:52:test_HeatingPumpOn_tempInRange:PASS
-C:\Users\Karol\STM32CubeIDE\workspace_1.16.0\furnanceController\Tests\test_controller.c:53:test_HeatingPumpOff_tempBelowRange:PASS
-C:\Users\Karol\STM32CubeIDE\workspace_1.16.0\furnanceController\Tests\test_controller.c:54:test_HeatingPumpOff_tempAboveRange:PASS
-C:\Users\Karol\STM32CubeIDE\workspace_1.16.0\furnanceController\Tests\test_controller.c:56:test_HotWaterPumpOn_tempInRange:PASS
-C:\Users\Karol\STM32CubeIDE\workspace_1.16.0\furnanceController\Tests\test_controller.c:40:test_HotWaterPumpOff_tempBelowRange:FAIL: Expected FALSE Was TRUE
-C:\Users\Karol\STM32CubeIDE\workspace_1.16.0\furnanceController\Tests\test_controller.c:58:test_HotWaterPumpOff_tempAboveRange:PASS
+Unity test run 1 of 1
+.C:\Users\Karol\STM32CubeIDE\workspace_1.16.0\furnanceController\Tests\test_controller.c:27:TEST(HPump, TurnsOn_WhenTempInRange):FAIL: Pompa CO powinna sie wlaczyc przy 60C
+....C:\Users\Karol\STM32CubeIDE\workspace_1.16.0\furnanceController\Tests\test_controller.c:58:TEST(HWPump, test_HotWaterPumpOff_tempBelowRange):FAIL: Expected FALSE Was TRUE
+.
 
 -----------------------
-6 Tests 1 Failures 0 Ignored 
+6 Tests 2 Failures 0 Ignored 
 FAIL

@@ -9,9 +9,33 @@ CMakeFiles/test_controller.dir/C_/Users/Karol/STM32CubeIDE/workspace_1.16.0/furn
   c:/users/karol/stm32cubeide/workspace_1.16.0/furnancecontroller/core/inc/config.h \
   c:/users/karol/stm32cubeide/workspace_1.16.0/furnancecontroller/core/inc/controller.h
 
-CMakeFiles/test_controller.dir/lib/Unity/src/unity.c.obj: C:/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Tests/lib/Unity/src/unity.c \
-  C:/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Tests/lib/Unity/src/unity.h \
-  C:/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Tests/lib/Unity/src/unity_internals.h \
+CMakeFiles/test_controller.dir/Lib/Unity/extras/fixture/src/unity_fixture.c.obj: C:/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Tests/Lib/Unity/extras/fixture/src/unity_fixture.c \
+  C:/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Tests/Lib/Unity/extras/memory/src/unity_memory.h \
+  C:/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Tests/Lib/Unity/src/unity.h \
+  C:/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Tests/Lib/Unity/src/unity_internals.h \
+  C:/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Tests/Lib/Unity/extras/fixture/src/unity_fixture.h \
+  C:/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Tests/Lib/Unity/extras/fixture/src/unity_fixture_internals.h \
+  c:/mingw/include/_mingw.h \
+  c:/mingw/include/limits.h \
+  c:/mingw/include/math.h \
+  c:/mingw/include/msvcrtver.h \
+  c:/mingw/include/sdkddkver.h \
+  c:/mingw/include/setjmp.h \
+  c:/mingw/include/stdint.h \
+  c:/mingw/include/stdio.h \
+  c:/mingw/include/stdlib.h \
+  c:/mingw/include/string.h \
+  c:/mingw/include/strings.h \
+  c:/mingw/include/sys/types.h \
+  c:/mingw/include/w32api.h \
+  c:/mingw/include/wchar.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/stdarg.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/stddef.h \
+  c:/mingw/lib/gcc/mingw32/6.3.0/include/stdint.h
+
+CMakeFiles/test_controller.dir/Lib/Unity/src/unity.c.obj: C:/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Tests/Lib/Unity/src/unity.c \
+  C:/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Tests/Lib/Unity/src/unity.h \
+  C:/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Tests/Lib/Unity/src/unity_internals.h \
   c:/mingw/include/_mingw.h \
   c:/mingw/include/limits.h \
   c:/mingw/include/math.h \
@@ -27,8 +51,11 @@ CMakeFiles/test_controller.dir/lib/Unity/src/unity.c.obj: C:/Users/Karol/STM32Cu
   c:/mingw/lib/gcc/mingw32/6.3.0/include/stdint.h
 
 CMakeFiles/test_controller.dir/test_controller.c.obj: C:/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Tests/test_controller.c \
-  C:/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Tests/lib/Unity/src/unity.h \
-  C:/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Tests/lib/Unity/src/unity_internals.h \
+  C:/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Tests/Lib/Unity/extras/fixture/src/unity_fixture.h \
+  C:/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Tests/Lib/Unity/extras/fixture/src/unity_fixture_internals.h \
+  C:/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Tests/Lib/Unity/extras/memory/src/unity_memory.h \
+  C:/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Tests/Lib/Unity/src/unity.h \
+  C:/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Tests/Lib/Unity/src/unity_internals.h \
   c:/mingw/include/_mingw.h \
   c:/mingw/include/limits.h \
   c:/mingw/include/math.h \
@@ -37,6 +64,7 @@ CMakeFiles/test_controller.dir/test_controller.c.obj: C:/Users/Karol/STM32CubeID
   c:/mingw/include/setjmp.h \
   c:/mingw/include/stdint.h \
   c:/mingw/include/stdio.h \
+  c:/mingw/include/stdlib.h \
   c:/mingw/include/sys/types.h \
   c:/mingw/include/w32api.h \
   c:/mingw/lib/gcc/mingw32/6.3.0/include/stdarg.h \
@@ -47,7 +75,9 @@ CMakeFiles/test_controller.dir/test_controller.c.obj: C:/Users/Karol/STM32CubeID
   c:/users/karol/stm32cubeide/workspace_1.16.0/furnancecontroller/core/inc/controller.h
 
 
-C:/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Tests/lib/Unity/src/unity.h:
+C:/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Tests/Lib/Unity/extras/memory/src/unity_memory.h:
+
+C:/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Tests/Lib/Unity/src/unity.h:
 
 c:/mingw/include/sdkddkver.h:
 
@@ -61,13 +91,21 @@ c:/mingw/lib/gcc/mingw32/6.3.0/include/stdint.h:
 
 C:/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Core/Src/controller.c:
 
+c:/mingw/include/string.h:
+
 c:/users/karol/stm32cubeide/workspace_1.16.0/furnancecontroller/core/inc/controller.h:
 
-C:/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Tests/lib/Unity/src/unity_internals.h:
+C:/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Tests/Lib/Unity/extras/fixture/src/unity_fixture_internals.h:
 
-C:/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Tests/lib/Unity/src/unity.c:
+C:/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Tests/Lib/Unity/extras/fixture/src/unity_fixture.c:
+
+C:/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Tests/Lib/Unity/src/unity_internals.h:
+
+C:/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Tests/Lib/Unity/extras/fixture/src/unity_fixture.h:
 
 c:/mingw/include/_mingw.h:
+
+c:/mingw/include/stdlib.h:
 
 c:/mingw/include/limits.h:
 
@@ -81,12 +119,18 @@ c:/mingw/include/stdint.h:
 
 c:/mingw/include/stdio.h:
 
+c:/mingw/include/strings.h:
+
 c:/mingw/include/sys/types.h:
 
 c:/mingw/include/w32api.h:
 
+c:/mingw/include/wchar.h:
+
 c:/mingw/lib/gcc/mingw32/6.3.0/include/stdarg.h:
 
 c:/mingw/lib/gcc/mingw32/6.3.0/include/stddef.h:
+
+C:/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Tests/Lib/Unity/src/unity.c:
 
 C:/Users/Karol/STM32CubeIDE/workspace_1.16.0/furnanceController/Tests/test_controller.c:
